@@ -13,15 +13,16 @@ https://www.tooplate.com/view/2132-clean-work
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #26a73c;
-  --secondary-color:              #0f9141;
+  --primary-color:                #eb2727;
+  --secondary-color:              #fa8e00;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #035510;
-  --custom-btn-bg-hover-color:    #6fe06f;
+  --custom-btn-bg-color:          ;
+  --custom-btn-bg2-color:          #0804e6;
+  --custom-btn-bg-hover-color:    #0379ff;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --p-color:                      #b7bdce;
   --border-color:                 #e9eaeb;
-  --link-hover-color:             #17a13a;
+  --link-hover-color:             #ff1e00;
 
   --body-font-family:             'Poppins', sans-serif;
 
@@ -576,7 +577,7 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--custom-btn-bg-color);
+  background: var(--custom-btn-bg2-color);
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -817,7 +818,7 @@ strong {
 .site-header p,
 .site-header p a,
 .site-header .social-icon-link {
-  color: var(--white-color);
+  color: var(--secondary-color);
   font-size: var(--copyright-font-size);
 }
 
@@ -1463,20 +1464,20 @@ strong {
 }
 
 .social-icon-link {
-  background: #7fbcf0;
+  background: var(--custom-btn-bg-color);
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: var(--primary-color);
   font-size: var(--copyright-font-size);
   display: block;
   margin-right: 10px;
-  text-align: center;
+  text-align:center;
   width: 35px;
   height: 35px;
-  line-height: 36px;
+  line-height: 35px;
 }
 
 .social-icon-link:hover {
-  background: var(--primary-color);
+  background: var(--custom-btn-bg-hover-color);
   color: var(--white-color);
 }
 
