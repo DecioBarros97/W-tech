@@ -637,6 +637,7 @@ strong {
   color: var(--white-color);
   font-size: var(--h6-font-size);
   font-weight: var(--font-weight-light);
+  
 }
 
 .logo {
@@ -745,6 +746,7 @@ strong {
   width: 30px;
   height: 35px;
   outline: none;
+
 }
 
 .navbar-toggler:focus {
@@ -754,6 +756,7 @@ strong {
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: transparent;
+  
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
@@ -773,7 +776,7 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background: var(--dark-color);
+  background: var(--white-color);
   transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
@@ -789,7 +792,7 @@ strong {
   position: absolute;
   right: 0;
   left: 0;
-  background: var(--dark-color);
+  background: var(--white-color);
   width: 30px;
   height: 2px;
   content: '';
@@ -1563,18 +1566,20 @@ strong {
   }
 
   .navbar {
-    background-color: var(--white-color);
+    background-color: var(--dark-color);
+    opacity: 1;
     padding-top: 5px;
     padding-bottom: 5px;
   }
 
   .navbar-brand,
   .navbar-brand:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
   }
 
   .navbar-nav .nav-link {
-    color: var(--p-color);
+    color: var(--white-color);
   }
 
   .navbar-expand-lg .navbar-nav {
@@ -1668,4 +1673,28 @@ strong {
     font-size: 20px;
   }
 }
+
+
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+}
+
 
