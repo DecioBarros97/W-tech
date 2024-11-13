@@ -14,7 +14,7 @@
       "images/slideshow/slide2.jpg",
       "images/slideshow/slide33.jpg",
       "images/slideshow/slide1.jpg"
-    ],  {duration: 6000, fade: 750});
+    ],  {duration: 6000, fade: 900});
     
     // CUSTOM LINK
     $('.smoothscroll').click(function(){

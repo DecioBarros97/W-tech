@@ -18,7 +18,7 @@ https://www.tooplate.com/view/2132-clean-work
   --custom-btn-bg2-color: #0804e6;
   --custom-btn-bg-hover-color: #0379ff;
   --dark-color: #000000;
-  --p-color: #b7bdce;
+  --p-color: #767981;
   --border-color: #e9eaeb;
   --link-hover-color: #ffd900;
 
@@ -1159,7 +1159,7 @@ strong {
 .team-info a,
 .contact-info h5,
 .contact-info h5 a {
-  color: var(--p-color);
+  color: var(--dark-color);
 }
 
 .team-info a:hover,
@@ -1287,7 +1287,7 @@ strong {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
+  background: var(--custom-btn-bg2-color);
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
