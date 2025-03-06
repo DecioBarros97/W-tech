@@ -11,21 +11,12 @@ https://www.tooplate.com/view/2132-clean-work
 -----------------------------------------*/
 :root {
   --white-color: #ffffff;
-<<<<<<< HEAD
-  --primary-color: #eb2727;
+  --primary-color: #8c0d14;
   --secondary-color: #fa8e00;
   --section-bg-color: #f0f8ff;
   --custom-btn-bg-color: ;
-  --custom-btn-bg2-color: #0804e6;
-  --custom-btn-bg-hover-color: #0379ff;
-=======
-  --primary-color: #8C0D14 ;
-  --secondary-color: #fa8e00;
-  --section-bg-color: #f0f8ff;
-  --custom-btn-bg-color: ;
-  --custom-btn-bg2-color: #F8B018;
+  --custom-btn-bg2-color: #f8b018;
   --custom-btn-bg-hover-color: #696969;
->>>>>>> 270fe70 (commit primeiro)
   --dark-color: #000000;
   --p-color: #767981;
   --border-color: #e9eaeb;
@@ -1402,10 +1393,6 @@ strong {
 }
 
 /*  Whatsapp */
-<<<<<<< HEAD
-
-=======
->>>>>>> 270fe70 (commit primeiro)
 .wpp-btn {
   position: fixed;
   width: 75px;
@@ -1413,17 +1400,8 @@ strong {
   bottom: 35px;
   right: 35px;
   border-radius: 1rem;
-<<<<<<< HEAD
-  animation-name: seta;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  z-index: 100;
-=======
   animation: seta 1.5s ease-in-out infinite alternate;
   z-index: 999; /* Mantém acima dos outros elementos */
->>>>>>> 270fe70 (commit primeiro)
 }
 
 .wpp-btn img {
@@ -1432,19 +1410,11 @@ strong {
   filter: drop-shadow(1px 1px 2px #888);
 }
 
-<<<<<<< HEAD
-=======
 /* Animação do botão */
->>>>>>> 270fe70 (commit primeiro)
 @keyframes seta {
   0% {
     bottom: 40px;
   }
-<<<<<<< HEAD
-
-  100% {
-    bottom: 70px;
-=======
   100% {
     bottom: 50px;
   }
@@ -1466,7 +1436,6 @@ strong {
     100% {
       bottom: 35px;
     }
->>>>>>> 270fe70 (commit primeiro)
   }
 }
 
@@ -1711,9 +1680,6 @@ strong {
     font-size: 20px;
   }
 }
-<<<<<<< HEAD
-=======
-
 
 /* Efeito Hover para aumentar as divs */
 .featured-block {
@@ -1725,4 +1691,3 @@ strong {
   transform: scale(1.05); /* Aumenta 5% */
   box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2); /* Sombra sutil */
 }
->>>>>>> 270fe70 (commit primeiro)
